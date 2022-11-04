@@ -28,7 +28,6 @@ import android.util.Log;
 import androidx.preference.PreferenceManager;
 
 import org.lineageos.settings.dirac.DiracUtils;
-import org.lineageos.settings.popupcamera.PopupCameraUtils;
 import org.lineageos.settings.thermal.ThermalUtils;
 import org.lineageos.settings.utils.FileUtils;
 import org.lineageos.settings.refreshrate.RefreshUtils;
@@ -50,8 +49,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         } catch (Exception e) {
             Log.d(TAG, "Dirac is not present in system");
         }
-
-        PopupCameraUtils.checkPopupCameraService(context);
         ThermalUtils.startService(context);
         FileUtils.enableService(context);
         RefreshUtils.startService(context); 
