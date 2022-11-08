@@ -2,6 +2,7 @@
 attribute hal_vibratorfeature_xiaomi;
 attribute hal_vibratorfeature_xiaomi_client;
 attribute hal_vibratorfeature_xiaomi_server;
+<<<<<<< HEAD
 
 # Xiaomi CIT Sensor Service
 attribute vendor_hal_citsensorservice_xiaomi;
@@ -12,3 +13,5 @@ attribute vendor_hal_citsensorservice_xiaomi_server;
 attribute vendor_hal_displayfeature_xiaomi;
 attribute vendor_hal_displayfeature_xiaomi_client;
 attribute vendor_hal_displayfeature_xiaomi_server;
+=======
+>>>>>>> 9751ee1 (sm8250-common: Import and adapt Xiaomi Proprietary vibrator hal)
