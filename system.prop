@@ -80,9 +80,6 @@ ro.vold.umsdirtyratio=20
 power.saving.mode=1
 
 # Blur
-ro.launcher.blur.appLaunch=0
 ro.sf.blurs_are_expensive=1
 ro.surface_flinger.supports_background_blur=1 
 
-#AvoidGfxAccel 
-ro.config.avoid_gfx_accel=true
